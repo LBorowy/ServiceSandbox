@@ -15,11 +15,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, StartedServiceExample.class);
         startService(intent);
 
-        try {
-            Thread.sleep(2000);
-            stopService(intent);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        stopService(intent);
     }
 }
