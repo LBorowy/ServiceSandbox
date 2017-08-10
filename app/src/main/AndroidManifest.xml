@@ -17,6 +17,7 @@
         </activity>
         <service android:name=".StartedServiceExample"/>
         <service android:name=".IntentServiceExample"/>
+        <service android:name=".BoundServiceExample"/>
     </application>
 
 </manifest>
